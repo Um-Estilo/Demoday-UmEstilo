@@ -1,0 +1,126 @@
+@import url("https://use.typekit.net/jtn1qev.css");
+
+
+body::-webkit-scrollbar {
+  display: none;
+
+}
+
+ 
+a{
+  text-decoration: none;
+}
+ 
+a.links{
+  display: none;
+}
+
+.content{
+  width: 500px;
+  min-height: 560px;    
+  margin: 0px auto;
+  position: relative;   
+}
+
+h1{
+  font-size: 38px;
+  color: #ff5500;
+  padding: 2px 0 10px 0;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 30px;
+  font-family: 'Abril';
+
+}
+
+p{
+  margin-bottom:15px;
+  color: #4E008E;
+}
+
+span {
+  color: #4E008E;
+}
+
+label{
+  color: #4E008E;
+  position: relative;
+  font-size:large;
+}
+
+::-webkit-input-placeholder  {
+  color: #000000; 
+  font-style: italic;
+  font-size:large;
+
+}
+#text{
+  display: none;
+}
+input:-moz-placeholder, textarea:-moz-placeholder{
+  color: #bebcbc;
+}
+
+input {
+  outline: none;
+
+}
+ 
+input:not([type="checkbox"]){
+  width: 100%;
+  font-size: 1em;
+  margin-top: 4px;
+  padding: 10px;    
+  border: 1px solid #b2b2b2;
+  border-radius: 3px;
+  box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+  transition: all 0.2s linear;
+  border-radius: 15px;
+
+}
+ 
+input[type="submit"]{
+  width: 100%!important;
+  cursor: pointer;  
+  background: #FF5500;
+  padding: 8px 5px;
+  color: #fff;
+  font-size: 20px;  
+  border: 1px solid #fff;   
+  margin-bottom: 10px;  
+  text-shadow: 0 1px 1px #333;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+ 
+  transition: all 0.2s linear;
+}
+.ff5500{
+  color: #ff5500;
+}
+
+
+img{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 3%;
+  display: block;
+  width: 350px;
+
+}
+
+/*Responsivo */
+
+@media only screen and (max-width: 500px) {
+  .content{
+    width: 230px;
+  }
+  h1{
+    font-size: 28px;
+    color: #ff5500;
+    padding: 2px 0 10px 0;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+}

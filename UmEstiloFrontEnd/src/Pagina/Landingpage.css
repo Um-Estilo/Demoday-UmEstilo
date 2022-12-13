@@ -1,0 +1,405 @@
+body {
+    background: #f4f4f4;
+    width: 100%;
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.Navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: auto;
+  
+}
+.Nome{
+    display: flex;
+    margin: 0;
+    left: 100px;
+}
+.Logo {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    margin: 1%;
+}
+.Logo img{
+    height: 150px;
+    width: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: #4E008E;
+    margin-right: 10px;
+    padding: 8px;
+}
+
+
+.Botao a:hover {
+    color: #ff5500;
+}
+
+.Nome {
+    color: #4E008E;
+    text-decoration: none;
+    font-size: 3.2em;
+}
+
+span {
+    color: #ff5500;
+}
+
+
+.land_video{
+    height: 670px;
+    width: 100vw;
+    background-color: #4E008E;
+    
+}
+
+
+.Video{
+    height: 470px;
+    width: 219px;
+    border-radius: 30px;
+    background-color: #000000;
+    position: relative;
+    bottom: 679px;
+    left: 267px;
+    z-index: -100px;
+}
+
+.celular {
+    width: 560px;
+    border-radius: 15px;
+    z-index: 100px;
+    margin-left: 0px;
+
+}
+
+.btn2 {
+    text-decoration: none;
+    color: #f4f4f4;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    background: #4E008E;
+    box-shadow: inset 1px 0 10px #000000;
+    border-radius: 30px;
+}
+
+.txtUm {
+    color: black;
+    margin: 40px 10px 100px 20px;
+    font-size: 18px;
+    width: 100%;
+}
+
+.txtUm .tituUm {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color: #4E008E;
+    font-size: 30px;
+}
+
+.txtUm .tituUm span {
+    color: #ff5500;
+}
+
+.txtDois {
+    font-weight: 500;
+    color: black;
+    margin-left: auto;
+    font-size: 18px;
+    margin: 0 20px 100px 50%;
+}
+
+.txtDois .tituDois {
+    margin-bottom: 20px;
+    color: #ff5500;
+    font-size: 30px;
+}
+.BlocoDois {
+    width: 92%;
+    padding: 10px 5px;
+    margin: auto;
+    display:contents;
+}
+.BlocoDois p{
+    align-items: center;
+
+}
+.txtUm {
+    color: black;
+    margin: 40px 10px 100px 20px;
+    font-size: 18px;
+    width: 100%;
+    align-content: center;
+}
+
+.txtUm .tituUm {
+    margin-bottom: 20px;
+    color: #4E008E;
+    font-size: 30px;
+    align-content: center;
+
+}
+
+.txtUm .tituUm span {
+    color: #ff5500;
+}
+
+.txtDois {
+    font-weight: 500;
+    color: black;
+    margin-left: auto;
+    font-size: 18px;
+    margin: 0 20px 100px 50%;
+}
+
+.txtDois .tituDois {
+    margin-bottom: 20px;
+    color: #ff5500;
+    font-size: 30px;
+}
+
+
+.BlocoParc {
+    margin: 0 18px;
+}
+
+.Parcerias {
+    margin: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: #ff5500;
+}
+
+.Logomarcas {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 200px;
+    margin-top: 100px;
+
+}
+
+.Logomarcas p {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 200px;
+
+}
+.Inovalem img {
+    width: 100px;
+    height: 100px;
+    background: #0400ff30;
+    border-radius: 50px;
+
+}
+
+.Visumei img {
+    width: 100px;
+    height: 100px;
+    background: #4E008E;
+    border-radius: 50px;
+
+}
+
+.Tc img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    margin: 30px 10px 30px;
+    color: rgb(0, 0, 0)
+}
+
+.Cliente{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    margin: 15px;
+}
+
+.Cliente .Titulo{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #4E008E;
+}
+
+.Cliente .Titulo span{
+    color: #ff5500;
+}
+
+.Cliente .Para{
+    font-size: 20px;
+    margin: 0 20px;
+    font-weight: 400;
+}
+
+.Cliente .Para .pUm{
+    margin: 0 50px;
+}
+
+.Cliente .Para .pDois{
+    margin: 10px 90px;
+}
+
+.Cliente .textCliente{
+    display: flex;
+    flex-direction: column;
+}
+
+ .btnCliente{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 50px;
+    color: #4E008E;
+    cursor: pointer;
+    padding: 8px 15px;
+    border: none;
+    background: #D9D9D9;
+    border-radius: 10px;
+}
+
+.Cliente .btnCliente span{
+    color: #ff5500;
+}
+
+.Cliente img {
+    width: 200px;
+    height: 290px;
+}
+
+.Empre {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 16px;
+    margin: 15px;
+}
+
+.Empre .Titulo {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #4E008E;
+}
+
+.Empre .Titulo span{
+    color: #ff5500;
+}
+
+.Empre .Para{
+    font-size: 20px;
+    margin: 0 60px;
+    font-weight: 400;
+}
+
+.Empre .Para .pDois{
+    margin: 0 40px;
+}
+
+.Empre .textEmpre {
+    display: flex;
+    flex-direction: column;
+}
+
+.Empre .btnEmpre {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 50px;
+    color: #4E008E;
+    cursor: pointer;
+    padding: 8px 15px;
+    border: none;
+    background: #D9D9D9;
+    border-radius: 10px;
+    margin: 10px ;
+}
+
+
+
+.Empre .btnEmpre span {
+    color: #ff5500;
+}
+
+.Empre img {
+    width: 200px;
+    height: 250px;
+
+}
+
+.Footer{
+    display: flex;
+    background: #ccc;
+    width: 100%;
+}
+
+.LogoFooter{
+    flex-direction: column;
+    margin: 20px 30% 30px 10%;
+}
+
+.LogoFooter .nome_footer{
+    color: #4E008E;
+    font-size: 50px;
+}
+.LogoFooter img {
+   width: 210px;
+}
+
+.opcSobre{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 70px 100px 0 0;
+}
+
+.opcSobre p{
+    font-size: large;
+}
+
+.opcAtendi{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 70px 0;
+}
+
+.opcAtendi p{
+    font-size: large;
+}
+
+@media only screen and (max-width: 600px) {
+    .Navigation{
+        margin-left: 100px;
+    }
+
+    .celular {
+        margin-left: -175px;
+        overflow-y: hidden;
+    }
+
+    .Video {
+        margin-left: -175px;
+    }
+    .land_video{
+        width: 100%;
+    }
+    .opcAtendi{
+        display: none;
+    }footer {
+        width: 100%;
+    }
+    
+}

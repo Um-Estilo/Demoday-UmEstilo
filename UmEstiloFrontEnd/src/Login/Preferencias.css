@@ -1,0 +1,40 @@
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+button{
+    display: flex;
+    padding:0.8em 1.6em;
+    border-radius:1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight:400;
+    color:#FFFFFF;
+    background-color: #4E008E;
+    box-shadow: inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+    text-align: center;
+    position: relative;
+    margin-left: 100px;
+    cursor: pointer;
+
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+}
+
+/*Responsivo*/
+@media only screen and (max-width: 600px) {
+
+    img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+      
+  }
+  

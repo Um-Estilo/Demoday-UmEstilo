@@ -1,0 +1,100 @@
+.sidebar{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    background-color:  #4E008E;
+   position: fixed;
+   opacity: 95%;
+}
+.imgens_geral_side{
+    display: flex;
+    flex-direction: column;
+    height: 450px; 
+    overflow-y : scroll;
+    background-color: #ccc1;
+    border-bottom: #857b76 solid 1px ;
+    border-top: #857b76 solid 1px ;
+    
+}
+
+.perf{
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 25px;
+    cursor: pointer;
+}
+.topics  {
+    color: #ffffff;
+    text-align: center;
+}
+.profissao{
+    color: #ffffff;
+}
+
+.nome_perf{
+    color: #ffffff;
+    font-size: 17px;
+    cursor: pointer;
+    text-transform: uppercase;
+
+    
+}
+
+.nome_perf_seguir{
+    color: #FF5500;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+
+.img_side{
+    height: 100px;
+    width: 50px;
+    border-radius: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+
+.a-side{
+    color: #ffffff;
+    font-size: 26px;
+    cursor: pointer;
+    font-weight: 400;
+    text-align: center;
+    font-weight: 550;
+
+}
+.pra_voce{
+    text-align: center;
+    flex-direction: row;
+    margin-top: 15px;
+    cursor: pointer;
+    text-transform: uppercase; 
+    margin: 30px;
+
+}
+.imgens_geral_side{
+    text-align: center;
+}
+
+
+.imgens_geral_side::-webkit-scrollbar {
+    display: none;              /* width of the entire scrollbar */
+  }
+  
+
+  
+  .imgens_geral_side::-webkit-scrollbar-thumb {
+    background-color:#857b76;   /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 1px solid #847770;   /* creates padding around scroll thumb */
+  }
+
+@media screen and (max-width: 600px){
+    .sidebar{
+        display: none;}
+}

@@ -1,0 +1,74 @@
+
+.head{
+    width: 80%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    background-color: #ccc;
+    padding: 27px;
+    margin-left: 20%;
+}
+.UmEstilo{
+    display: flex;
+    align-items: center;
+    width: 25%;
+    margin-left: 5%;
+}
+.Logo{
+    width: 90px;
+}
+.Pesquisa_Plataforma  {
+    margin-left: 150px;
+    height: 40px;
+    font-size: larger;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    border: none;
+    padding: 0;
+    width: 292px;
+    background-color: #b3b3b3;
+    border-radius: 10%;
+}
+.fundo_moeda{
+    display: flex;
+    font-size: 20px;
+    border-radius: 30px;
+    margin-left:  20%;
+    background-color: #f4f4f4;
+    padding: 10px;
+    height: 55px; 
+}
+.prof {
+    margin-top: -6%;
+}
+.Perfil{
+    background-color: #f4f4f4;
+    border-radius: 30px;
+    margin-left: 50px;
+    padding: 0px;
+}
+@media screen and (max-width: 600px){
+    .Pesquisa_Plataforma{
+        margin: 10%;
+        display: none;
+    }
+    .fundo_moeda{
+        float: right;
+        display: none;
+
+    }
+    .Perfil{
+        margin-left:  0;
+        display: none;
+    }
+    .head{
+        display: block;
+        width: 100%;
+        margin-left: 0;
+    }
+
+}
+
+

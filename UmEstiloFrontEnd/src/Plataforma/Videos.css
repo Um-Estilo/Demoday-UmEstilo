@@ -1,0 +1,50 @@
+.Videos{ 
+    font-size: 100px;
+    margin-bottom: 10px; margin-top: 200px; margin-right: 500px; margin-left: 45%;
+    box-sizing: border-box;
+    float: left;
+    align-items: center;
+}
+video{
+    border-radius: 10px;
+    margin-right: 10px;
+    border-bottom: solid rgb(17, 17, 17);
+    height: 650px;
+    width: 350px;
+}
+.Play{
+    height: 470px;
+    width: 219px;
+    border-radius: 30px;
+    background-color: #000000;
+    bottom: 679px;
+    left: 267px;
+    z-index: -100px;
+}
+
+.Foto_empreendedor{
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    border: #ccc solid;
+    display: inline;
+    margin-bottom: 0;
+    margin: 5px;
+}
+.icons{
+    width: 55px;
+    height: 55px;
+    margin: 10px;
+    border-radius: 100%;
+    border: #000000 solid;
+    cursor: pointer;
+}
+.descricao{
+    display: flex;
+}
+.Nome_empreendedor{
+    display: flex;
+    font-size: medium;
+    color: #000000;
+
+}
